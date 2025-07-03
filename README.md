@@ -1,15 +1,20 @@
-# North Metro Software Python Project Template
+# Smart Carpark System
 
-A Python project template for all new projects in North Metro Software
+This project is part of the IPRIOT Python Assessment.  
+It simulates a smart carpark system using Python and object-oriented programming.
 
-You may use the guidelines under `org/` for assessments and projects in the IP4RIoT cluster.
+# Features
 
-## Additional Examples
-Here are other good examples of onboarding documents that relate to git and version control for you to browse:
+- Car class to store license plate info
+- ParkingBay class to track bay availability
+- CarPark class to manage all parking bays
+- Uses __str__() methods for readable output (polymorphism)
+- Demonstrates aggregation (ParkingBay holds a Car)
+- Version controlled using Git
 
-- [skybase](https://handbook.skybase.com.np/git-conventions/)
-- [thoughtbot](https://github.com/thoughtbot/guides/tree/main/git) (also see their excellent [code review](https://github.com/thoughtbot/guides/tree/main/code-review) guide!)
-- [GitLab Handbook](https://handbook.gitlab.com/handbook/product-development-flow/)
+#How to Run
 
-# Note
-When using this repo as a template, you should update this readme to provide a general overview suitable for **YOUR** project.
+From the terminal, run:
+
+```bash
+python src/main.py
