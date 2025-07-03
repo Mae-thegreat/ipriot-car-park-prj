@@ -1,0 +1,3 @@
+carpark = CarPark(3)
+carpark.announcements.append("EXTREME WEATHER")
+carpark.save_announcements()
